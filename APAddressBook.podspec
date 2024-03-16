@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "APAddressBook"
-  s.version      = "0.3.2"
+  s.version      = "0.4"
   s.summary      = "Easy access to iOS address book"
   s.homepage     = "https://github.com/Alterplay/APAddressBook"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.social_media_url      = "https://twitter.com/alterplay"
   s.screenshot            = "https://dl.dropboxusercontent.com/u/2334198/APAddressBook-git-teaser.png"
-  s.ios.deployment_target = "6.0"
+  s.ios.deployment_target = "17.0"
 
   s.subspec 'Core' do |sp|
     sp.source_files = 'Pod/Core/**/*.{h,m}'
